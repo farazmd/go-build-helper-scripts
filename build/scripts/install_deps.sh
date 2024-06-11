@@ -12,4 +12,4 @@ source $(dirname ${BASH_SOURCE[0]})/init.sh
 # Install golangci-lint
 
 echo "Installing golangci-lint: ${GOLANGCI_LINT_VERSION}"
-curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b ${GOLANGCI_LINT_INSTALL_PATH} ${GOLANGCI_LINT_VERSION}
+curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b ${GOLANGCI_INSTALL_PATH} ${GOLANGCI_LINT_VERSION}

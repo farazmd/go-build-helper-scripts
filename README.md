@@ -9,7 +9,10 @@ A set of scripts and makefiles to help build go projects
 - `build/scripts/install_deps.sh` has all external dependencies for the project.
 
 ## Installation
-Todo
+- Change directory to the root of your go project and run: 
+```shell
+curl https://raw.githubusercontent.com/farazmd/go-build-helper-scripts/master/install.sh | bash
+```
 
 ## Dependencies
 
